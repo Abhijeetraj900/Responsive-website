@@ -23,7 +23,7 @@ html ,body{
     padding: 0 2vw;
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background-color: rgb(234, 234, 237);
 }
 
@@ -65,4 +65,96 @@ html ,body{
 #center #logo img{
     width: 120px;
     margin: 0 20px;
+}
+
+#hero{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+}
+#left{
+    width: calc(100%/3);
+    min-height: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 0 3vw;
+}
+
+#left h1{
+    font-size: 4vh;
+    line-height: 1;
+    margin-bottom: 1vw;
+}
+#left h1 span{
+    font-weight: 300px;
+    color: red;
+}
+#left p{
+    width: 80%;
+}
+#left button{
+    display: flex;
+    align-items: center;
+    font-weight: 600px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 12px 22px;
+    color: white;
+    background-color: red;
+}
+
+#left button i{
+    margin-right: 10px;
+}
+
+#left #btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#left #btn> i{
+    color: red;
+    margin-left: 20px;
+}
+
+#cent{
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: inherit;
+}
+
+#cent #tomb{
+    position: relative;
+    width: 70%;
+    height: 70vh;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1594971475674-6a97f8fe8c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    /* filter: blur(5px); */
+    
+}
+
+#tomb #cap{
+    position: absolute;
+    right: -25%;
+    top: 30%;
+    width: 40%;
+    height: 3vw;
+    background-color: aquamarine;
+    border-radius: 100px;
+}
+
+#right{
+    width: calc(100%/3);
+    min-height: inherit;
+    background-color: blueviolet;
 }
