@@ -24,14 +24,13 @@ html ,body{
     position: relative;
     width: 100%;
     height: 10vh;
-    background-color: rgb(234, 234, 237);
 }
 
 #nav a{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgb(24, 112, 189);
+    color: white;
 
 }
 #nav a i{
@@ -145,16 +144,83 @@ html ,body{
 
 #tomb #cap{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px 0 5px;
+    color: rgb(233, 145, 145);
     right: -25%;
     top: 30%;
-    width: 40%;
-    height: 3vw;
-    background-color: aquamarine;
+    width: 55%;
+    height: 3.2vw;
+    background-color: rgb(23, 31, 29);
     border-radius: 100px;
+}
+#tomb #cap h6{
+    color: rgb(205, 176, 231);
+}
+
+#tomb #photo{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1633118611826-b757eca2a7ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position: center;
+
 }
 
 #right{
     width: calc(100%/3);
     min-height: inherit;
-    background-color: blueviolet;
+}
+
+#rbottom{
+    width: 30%;
+    padding: 0 5vw;
+    bottom: 10vh;
+    position: absolute;
+    color: aliceblue;
+}
+
+#rbottom .row{
+    color: #fff;
+    display: flex;
+    opacity: .5;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#rbottom .row:nth-child(3){
+    opacity: 1;
+    border-bottom: initial;
+}
+
+#rbottom p{
+    color: white;
+    font-size: 12px;
+    width: 80%;
+}
+
+#rbottom #scroll{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+}
+
+#rbottom #circle{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: #666;
+    border-radius: 50%;
+    border: 1px solid #666;
 }
