@@ -224,3 +224,83 @@ html ,body{
     border-radius: 50%;
     border: 1px solid #666;
 }
+
+/* RESPONSIVE  */
+@media(max-width:500px){
+
+     #nav a{
+        font-size: 13px;
+     }
+
+     #nav a i{
+        margin-right: 10px;
+     }
+
+    #nav #center a{
+        display: none;
+    }
+
+    #nav #center .line{
+        width: 40px;
+
+    }
+
+    #center #logo img{
+        width: 100px;
+        margin: 0 10px;
+        
+    }
+
+    #hero{
+        flex-direction: column;
+    }
+    #hero #left{
+        min-height: initial;
+        width: 100%;
+        padding: 10vw 3vw;
+    }
+
+    #left h1{
+        font-size: 9vw;
+
+    }
+    #left p{
+        margin-top: 20px;
+    }
+
+    #cent{
+        width: 100%;
+        min-height: 60vh;
+    }
+
+    #cent #tomb{
+        width: 65%;
+        min-height: 60vh;
+    }
+
+    #tomb #cap{
+        right: -15%;
+        top: 10%;
+        width: 65%;
+        height: 10.2vw;
+    }
+    #tomb #photo{
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #right {
+        width: 100%;
+        margin-top: 20vw;
+        min-height: initial;
+        margin-bottom: 20px;
+    }
+    #rbottom{
+        width: 100%;
+        position: static;
+        bottom: initial;
+    }
+    #text h5{
+        font-size: 3vw;
+    }
+}
